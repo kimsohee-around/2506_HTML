@@ -42,15 +42,3 @@ span.title {
     font-family: "Malgun Gothic";
 }
 
-.crop-box {
-  width: 224;   /* 출력할 영역 */
-  height: 316.18px;
-  overflow: hidden;  /* 크롭 효과  */
-}
-
-.crop-box img {
-  width: 224px;       /* SVG 확대 */
-  height: auto;
-  object-fit: none;   /* 확대 후 자르기 */
-  object-position: -50px -50px; /* 자를 위치 조정 */
-}
