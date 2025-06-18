@@ -1,25 +1,32 @@
 div.container {
   width:400px;
   margin: 5%;
+  float:left; 
+}
+div.css{
   border: 2px solid #264de4;
+}
+
+div.html {
+   border: 2px solid #e44d26;
 }
 /* 여러 곳에서 사용되는 속성은 별도로 정의 */
 div.bottom {
    border-bottom:1px solid gray;
 }
+/* padding,margin 속성값이 한 개일 때, 상하좌우 모두 적용
+                           두 개일 때, 상하 좌우 별도로 적용
+*/
 div.header {
-  text-align: center;padding: 3px;
+  text-align: center;padding: 3px;    
 }
+/* 크기 단위를 % 로 하면 부모 container 요소의 크기를 기준으로 비율 정함 */
 div.logo{
   text-align: center;padding: 7% 15%;
-}
-div.table{
-  
 }
 div.footer{
   text-align: center;padding-top: 2px;
 }
-
 
 /* span 요소 - 단순히 텍스트를 감싸기 위한 목적.(별도의 스타일 지정 가능) */
 span {
@@ -33,4 +40,17 @@ span.title {
     text-align: center;
     font-weight: 600;
     font-family: "Malgun Gothic";
+}
+
+.crop-box {
+  width: 224;   /* 출력할 영역 */
+  height: 316.18px;
+  overflow: hidden;  /* 크롭 효과  */
+}
+
+.crop-box img {
+  width: 224px;       /* SVG 확대 */
+  height: auto;
+  object-fit: none;   /* 확대 후 자르기 */
+  object-position: -50px -50px; /* 자를 위치 조정 */
 }
