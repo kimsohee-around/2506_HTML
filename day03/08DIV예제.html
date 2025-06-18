@@ -4,40 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        span {
-            display: inline-block;
-            padding: 4px 10px;
-            
-        }
-        span.title {
-            width: 25%;
-            border-right: 1px solid gray;
-            text-align: center;
-            font-weight: 600;
-            font-family: "Malgun Gothic";
-        }
-    </style>
+    <!-- 사용할 css 파일을 지정합니다. -->
+    <link rel="stylesheet" href="08DIV.css">
 </head>
 <body>
-    <div style="width:400px;margin: 5%;border: 2px solid #264de4;">
-        <div style="border-bottom:1px solid gray;text-align: center;padding: 3px;">
+    <div class="container">
+        <div class="header bottom">
             <div style="font-weight: 600;font-size:1.6rem;">CSS</div>
             <div style="font-weight: 600;font-size: 1.1rem;">Cascading Style Sheet</div>
         </div>
-        <div style="text-align: center;padding: 7% 15%;border-bottom:1px solid gray;">
+        <div class="logo bottom">
                 <img src="csslogo.svg" width="80%">
         </div>
-        <div style="border-bottom:1px solid gray;">
+        <div class="bottom">
             <span class="title">개발</span><span>W3C</span>
         </div>
-        <div style="border-bottom:1px solid gray;">
+        <div class="bottom">
             <span class="title">발표일</span><span>1996년 12월 17일</span>
         </div> 
-        <div style="border-bottom:1px solid gray;">   
+        <div class="bottom">   
             <span class="title">종류</span><span>스타일 시트 언어</span>
         </div>
-        <div style="text-align: center;padding-top: 2px;">
+        <div class="footer">
             <span><img src="home.svg" width="20px"></span>
         </div>
     </div>

@@ -1,0 +1,36 @@
+div.container {
+  width:400px;
+  margin: 5%;
+  border: 2px solid #264de4;
+}
+/* 여러 곳에서 사용되는 속성은 별도로 정의 */
+div.bottom {
+   border-bottom:1px solid gray;
+}
+div.header {
+  text-align: center;padding: 3px;
+}
+div.logo{
+  text-align: center;padding: 7% 15%;
+}
+div.table{
+  
+}
+div.footer{
+  text-align: center;padding-top: 2px;
+}
+
+
+/* span 요소 - 단순히 텍스트를 감싸기 위한 목적.(별도의 스타일 지정 가능) */
+span {
+    display: inline-block;   /* 인라인 특징을 유지하면서 블록처럼 크기설정  */
+    padding: 4px 10px;
+    
+}
+span.title {
+    width: 25%;
+    border-right: 1px solid gray;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Malgun Gothic";
+}
